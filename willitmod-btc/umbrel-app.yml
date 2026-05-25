@@ -1,10 +1,13 @@
 manifestVersion: 1
-id: axe-parasite
-category: bitcoin
-name: Axe-Parasite
-version: "0.1.0"
-tagline: Parasite Pool + Your Node
-description: >-
+id: "axe-parasite"
+name: "Parasite Pool Gateway"
+version: "1.0.0"
+icon: "icon.png"
+category: "Mining"
+description: "Connected to Parasite Pool (parasite.wtf). Miners connect to your Umbrel and forward to Parasite Pool."
+developer: "Karma"
+website: "https://parasite.wtf"
+port: 3000
   Run your own Bitcoin node + a Stratum proxy that mines on Parasite Pool (parasite.wtf).
 
   Miner connection:
